@@ -32,6 +32,13 @@ def init_store(store):
         if not store.select("user_thresholds", model_id=m["model_id"]):
             store.insert("user_thresholds", [{"model_id": m["model_id"], "target_price": target,
                                               "alerts_enabled": True, "paused": False}], key=("model_id",))
+    extra = Path("data/all_models.json")
+    if extra.exists():       # all other stand mixers: visible in the app, tracked=false until you add them
+        d = json.loads(extra.read_text(encoding="utf-8"))
+        for i in range(0, len(d["models"]), 100):
+            store.insert("models", d["models"][i:i + 100], key=("model_id",))
+        for i in range(0, len(d["offers"]), 200):
+            store.insert("offers", d["offers"][i:i + 200], key=("model_id", "shop", "source"))
     log.info("inicijalizirano %d modela", len(store.select("models")))
 
 

@@ -1,7 +1,7 @@
 # Black Friday praćenje cijena samostojećih miksera
 
 Sustav prati 20 odabranih samostojećih miksera na hrvatskim shopovima, 2× dnevno (oko 07:00 i 19:00, Europe/Zagreb),
-sprema cijene u Supabase i šalje Telegram alarme. (Flutter aplikacija dolazi u Fazi 6.)
+sprema cijene u Supabase i šalje Telegram alarme. Flutter Android aplikacija (`app/`) čita i piše u Supabase.
 
 ## Arhitektura
 
@@ -98,3 +98,22 @@ python -m scraper.pipeline --dry --slot evening
 - Nema povijesti cijena prije početka praćenja (Jeftinije.hr blokiran, Nabavin `/product/priceHistory` zabranjen robots.txt-om).
 - Specifikacije dolaze iz opisa ponuda, ne od proizvođača; dough score je izračunat samo iz poznatih podataka.
 - Dostupnost s Nabave je samo ikona (šifra), ne tekst.
+
+## Android aplikacija (APK)
+
+Ekrani: Pregled (kartice praćenih modela), Detalj (graf povijesti po shopu, ponude, specifikacije, link na shop), Usporedba (2 do 3 modela),
+Svi mikseri (filteri + "dodaj u praćenje"), Pragovi i postavke, Povijest alarma. Material 3, tamna tema, hrvatski, pull-to-refresh,
+offline prikaz zadnjih podataka. Prijava e-mailom i lozinkom korisnika iz Supabasea (RLS: samo vlasnik).
+
+**Build i preuzimanje:** Actions → **build-apk** → Run workflow. Nakon ~10 min: repo → **Releases** → zadnji "Mikser tracker APK" → `app-release.apk`.
+
+**Instalacija na mobitel:**
+1. Otvori Releases na mobitelu i preuzmi `app-release.apk`.
+2. Android će pitati za dopuštenje: Postavke → dopusti instalaciju iz nepoznatih izvora za preglednik (ili aplikaciju Datoteke).
+3. Otvori preuzetu datoteku → Instaliraj. Ako Play Protect upozori (aplikacija nije potpisana za Play Store), odaberi "Instaliraj svejedno".
+4. Prijavi se e-mailom i lozinkom iz Supabase → Authentication → Users.
+
+Konfiguracija: `app/lib/config.dart` (Supabase URL i **publishable** ključ; javni po dizajnu, zaštitu daje RLS). Secret/service ključ nikad ne ide u aplikaciju.
+Android projekt se generira u workflowu (`flutter create`), pa nije u repozitoriju.
+Nakon prvog `init` u bazi je i ~110 ostalih modela (`tracked=false`) za ekran "Svi mikseri"; kad ih dodaš u praćenje,
+scraper ih uzima pri sljedećem runu.

@@ -26,3 +26,33 @@ for r in top:
     })
 Path("data/tracked_models.json").write_text(json.dumps(out, ensure_ascii=False, indent=1), encoding="utf-8")
 print(len(out), "praćenih modela;", sum(len(m["nabava_urls"]) for m in out), "Nabava stranica")
+
+
+# ---- all stand-mixer models (not only tracked) for the app's "Svi mikseri" screen ----
+from .analyze import is_stand_mixer
+tracked_ids = {m["model_id"] for m in out}
+all_models, all_offers = [], []
+for m in build():
+    if m["model_id"] in tracked_ids or not is_stand_mixer(m):
+        continue
+    score, comp = dough_score(m["specs"])
+    if score is None:
+        continue
+    refs = sorted({o["product_ref"] for o in m["offers"] if o.get("product_ref")})
+    all_models.append({"model_id": m["model_id"], "brand": m["brand"], "name": m["name"], "mpn_family": m["mpn_family"],
+                       "variants": m["variants"], "specs": m["specs"],
+                       "spec_sources": {k: "opis ponude (Nabava.net/shop)" for k in m["specs"]},
+                       "dough_score": score, "completeness": comp,
+                       "nabava_urls": [ref_url[x] for x in refs if x in ref_url], "tracked": False})
+    seen = set()
+    for o in m["offers"]:
+        k = (o["shop"], o["source"])
+        if k in seen:
+            continue
+        seen.add(k)
+        all_offers.append({"model_id": m["model_id"], "shop": o["shop"], "source": o["source"], "url": o["url"],
+                           "verified_direct": o["verified_direct"], "price": o["price"], "old_price": o.get("old_price"),
+                           "lowest_30d": o.get("lowest_30d"), "declared_discount_pct": o.get("declared_discount_pct"),
+                           "availability": o.get("availability")})
+Path("data/all_models.json").write_text(json.dumps({"models": all_models, "offers": all_offers}, ensure_ascii=False), encoding="utf-8")
+print(len(all_models), "ostalih modela,", len(all_offers), "ponuda (za app 'Svi mikseri')")
