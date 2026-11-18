@@ -27,6 +27,7 @@ jobs:
         run: |
           flutter create --platforms=android --org hr.mikser --project-name mikser_tracker .
           python3 ../scripts/patch_manifest.py android/app/src/main/AndroidManifest.xml
+          rm -rf test   # generated sample test does not match our app
       - name: Build release APK
         working-directory: app
         run: |
