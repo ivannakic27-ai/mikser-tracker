@@ -1,0 +1,21 @@
+﻿rank_pos;model_id;name;min_price;cheapest_shop;power_w;bowl_l;dough_score;completeness;value_per_100eur;rank_score;vs_omnibus_pct;vs_market_median_pct;fake_discount;suggested_target;n_shops;verified_direct
+1;name:ecg-forza-5500;ECG Forza 5500;253.3;MALL.HR;1500;6.5;100.0;0.8;39.48;1.0;;4.1;False;224.0;2;ne (preko usporednika)
+2;electrolux-e5km14bpt;Electrolux E5KM1-4BPT;237.18;Megabajt;1200;5.0;88.0;1.0;37.1;0.847;;20.9;False;225.0;12;ne (preko usporednika)
+3;name:sencor-stm-3789sl;Sencor STM 3789SL;218.91;Bazzar;1200;5.0;85.0;0.8;38.83;0.837;;;False;191.0;2;ne (preko usporednika)
+4;electrolux-e5km14swb;Electrolux E5KM1-4SWB;252.7;Bijela-tehnika.hr;1200;5.0;88.0;1.0;34.82;0.816;;15.7;False;240.0;10;ne (preko usporednika)
+5;electrolux-e6km14ppt;Electrolux E6KM1-4PPT;303.99;Euronics;1200;6.0;93.0;1.0;30.59;0.806;;25.1;False;289.0;10;ne (preko usporednika)
+6;name:eta-2043-90020;ETA 2043 90020;295.21;Bazzar;1200;5.0;91.3;0.8;30.93;0.806;;4.6;False;263.0;4;ne (preko usporednika)
+7;kenwood-kmx754;Kenwood KMX754PB;219.0;eHome;1000;5.0;83.3;1.0;38.04;0.786;;20.9;False;208.0;10;ne (preko usporednika)
+8;kenwood-kmx750;Kenwood KMX750AR;229.0;eHome;1000;5.0;83.3;1.0;36.38;0.765;37.1;17.9;False;218.0;14;da
+9;kenwood-kmx751;Kenwood KMX751AWH;232.79;Svijet Medija;1000;5.0;83.3;1.0;35.78;0.755;35.1;13.6;False;221.0;15;da
+10;bosch-mum9b34s27;Bosch MUM9B34S27;359.91;MALL.HR;1400;5.5;94.0;0.8;26.12;0.704;;32.8;False;342.0;7;ne (preko usporednika)
+11;kenwood-kvl4110s;Kenwood KVL4110S;346.5;Tech24;1200;6.7;91.3;0.8;26.35;0.684;;10.3;False;328.0;9;da
+12;bosch-mum58259;Bosch MUM58259;309.0;Elipso;1000;3.9;85.4;0.8;27.64;0.673;;3.6;False;273.0;9;da
+13;bosch-mum9a66r00;Bosch MUM9A66R00;439.0;Elipso;1600;5.5;97.5;1.0;22.21;0.663;;17.0;False;417.0;4;ne (preko usporednika)
+14;bosch-mums8zs00;Bosch MUMS8ZS00;503.93;Alles;1800;6.0;100.0;0.8;19.84;0.633;;22.8;False;479.0;7;ne (preko usporednika)
+15;name:sencor-stm-6377ch;Sencor STM 6377CH;261.62;MALL.HR;1000;4.5;80.8;1.0;30.88;0.622;;6.5;False;238.0;3;ne (preko usporednika)
+16;name:sencor-stm-7910;Sencor STM 7910;543.28;Bazzar;1500;6.0;100.0;1.0;18.41;0.612;;;False;473.0;2;ne (preko usporednika)
+17;name:sencor-stm-4460gg;Sencor STM 4460GG;226.23;Bazzar;1000;4.5;76.0;0.8;33.59;0.602;;;False;197.0;2;ne (preko usporednika)
+18;electrolux-e5km16gbp;Electrolux E5KM1-6GBP;354.08;iPon;1200;5.0;85.0;0.8;24.01;0.561;;10.9;False;336.0;3;ne (preko usporednika)
+19;smeg-smf05;Smeg SMF05CREU;404.1;eKupi;1000;4.8;82.3;1.0;20.37;0.439;;10.0;False;382.0;8;ne (preko usporednika)
+20;smeg-smf02;Smeg SMF02PKEU;379.0;Kingtrade;800;4.8;77.7;1.0;20.5;0.398;;36.7;False;360.0;5;ne (preko usporednika)

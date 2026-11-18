@@ -1,0 +1,622 @@
+[
+ {
+  "model_id": "name:ecg-forza-5500",
+  "brand": "Ecg",
+  "name": "ECG Forza 5500",
+  "mpn_family": null,
+  "variants": [],
+  "specs": {
+   "power_w": 1500,
+   "bowl_l": 6.5,
+   "planetary": true
+  },
+  "spec_sources": {
+   "power_w": "opis ponude (Nabava.net/shop)",
+   "bowl_l": "opis ponude (Nabava.net/shop)",
+   "planetary": "opis ponude (Nabava.net/shop)"
+  },
+  "dough_score": 100.0,
+  "completeness": 0.8,
+  "nabava_urls": [
+   "https://www.nabava.net/kuhinjski-roboti-i-multipraktici/ecg-forza-5500-cijena-569205551"
+  ],
+  "tracked": true,
+  "suggested_target": 224.0,
+  "best_buy_note": "Rang 1, dough score 100.0, najniža cijena u analizi 253.3 EUR (MALL.HR)."
+ },
+ {
+  "model_id": "electrolux-e5km14bpt",
+  "brand": "Electrolux",
+  "name": "Electrolux E5KM1-4BPT",
+  "mpn_family": "E5KM1-4BPT",
+  "variants": [
+   "E5KM1-4BPT"
+  ],
+  "specs": {
+   "power_w": 1200,
+   "bowl_l": 5.0,
+   "body": "metal",
+   "planetary": true
+  },
+  "spec_sources": {
+   "power_w": "opis ponude (Nabava.net/shop)",
+   "bowl_l": "opis ponude (Nabava.net/shop)",
+   "body": "opis ponude (Nabava.net/shop)",
+   "planetary": "opis ponude (Nabava.net/shop)"
+  },
+  "dough_score": 88.0,
+  "completeness": 1.0,
+  "nabava_urls": [
+   "https://www.nabava.net/kuhinjski-roboti-i-multipraktici/electrolux-e5km1-4bpt-cijena-580135061"
+  ],
+  "tracked": true,
+  "suggested_target": 225.0,
+  "best_buy_note": "Rang 2, dough score 88.0, najniža cijena u analizi 237.18 EUR (Megabajt)."
+ },
+ {
+  "model_id": "name:sencor-stm-3789sl",
+  "brand": "Sencor",
+  "name": "Sencor STM 3789SL",
+  "mpn_family": null,
+  "variants": [],
+  "specs": {
+   "power_w": 1200,
+   "bowl_l": 5.0,
+   "planetary": true
+  },
+  "spec_sources": {
+   "power_w": "opis ponude (Nabava.net/shop)",
+   "bowl_l": "opis ponude (Nabava.net/shop)",
+   "planetary": "opis ponude (Nabava.net/shop)"
+  },
+  "dough_score": 85.0,
+  "completeness": 0.8,
+  "nabava_urls": [
+   "https://www.nabava.net/kuhinjski-roboti-i-multipraktici/sencor-stm-3789sl-cijena-627725801"
+  ],
+  "tracked": true,
+  "suggested_target": 191.0,
+  "best_buy_note": "Rang 3, dough score 85.0, najniža cijena u analizi 218.91 EUR (Bazzar)."
+ },
+ {
+  "model_id": "electrolux-e5km14swb",
+  "brand": "Electrolux",
+  "name": "Electrolux E5KM1-4SWB",
+  "mpn_family": "E5KM1-4SWB",
+  "variants": [
+   "E5KM1-4SWB"
+  ],
+  "specs": {
+   "power_w": 1200,
+   "bowl_l": 5.0,
+   "body": "metal",
+   "planetary": true
+  },
+  "spec_sources": {
+   "power_w": "opis ponude (Nabava.net/shop)",
+   "bowl_l": "opis ponude (Nabava.net/shop)",
+   "body": "opis ponude (Nabava.net/shop)",
+   "planetary": "opis ponude (Nabava.net/shop)"
+  },
+  "dough_score": 88.0,
+  "completeness": 1.0,
+  "nabava_urls": [
+   "https://www.nabava.net/kuhinjski-roboti-i-multipraktici/electrolux-e5km1-4swb-cijena-579261251"
+  ],
+  "tracked": true,
+  "suggested_target": 240.0,
+  "best_buy_note": "Rang 4, dough score 88.0, najniža cijena u analizi 252.7 EUR (Bijela-tehnika.hr)."
+ },
+ {
+  "model_id": "electrolux-e6km14ppt",
+  "brand": "Electrolux",
+  "name": "Electrolux E6KM1-4PPT",
+  "mpn_family": "E6KM1-4PPT",
+  "variants": [
+   "E6KM1-4PPT"
+  ],
+  "specs": {
+   "power_w": 1200,
+   "bowl_l": 6.0,
+   "planetary": true,
+   "body": "metal"
+  },
+  "spec_sources": {
+   "power_w": "opis ponude (Nabava.net/shop)",
+   "bowl_l": "opis ponude (Nabava.net/shop)",
+   "planetary": "opis ponude (Nabava.net/shop)",
+   "body": "opis ponude (Nabava.net/shop)"
+  },
+  "dough_score": 93.0,
+  "completeness": 1.0,
+  "nabava_urls": [
+   "https://www.nabava.net/kuhinjski-roboti-i-multipraktici/electrolux-e6km1-4ppt-cijena-763727261"
+  ],
+  "tracked": true,
+  "suggested_target": 289.0,
+  "best_buy_note": "Rang 5, dough score 93.0, najniža cijena u analizi 303.99 EUR (Euronics)."
+ },
+ {
+  "model_id": "name:eta-2043-90020",
+  "brand": "Eta",
+  "name": "ETA 2043 90020",
+  "mpn_family": null,
+  "variants": [],
+  "specs": {
+   "power_w": 1200,
+   "bowl_l": 5.0,
+   "dough_kg": 2.5,
+   "planetary": true
+  },
+  "spec_sources": {
+   "power_w": "opis ponude (Nabava.net/shop)",
+   "bowl_l": "opis ponude (Nabava.net/shop)",
+   "dough_kg": "opis ponude (Nabava.net/shop)",
+   "planetary": "opis ponude (Nabava.net/shop)"
+  },
+  "dough_score": 91.3,
+  "completeness": 0.8,
+  "nabava_urls": [
+   "https://www.nabava.net/kuhinjski-roboti-i-multipraktici/eta-2043-90020-cijena-794411431"
+  ],
+  "tracked": true,
+  "suggested_target": 263.0,
+  "best_buy_note": "Rang 6, dough score 91.3, najniža cijena u analizi 295.21 EUR (Bazzar)."
+ },
+ {
+  "model_id": "kenwood-kmx754",
+  "brand": "Kenwood",
+  "name": "Kenwood KMX754PB",
+  "mpn_family": "KMX754",
+  "variants": [
+   "KMX754APB",
+   "KMX754PB",
+   "KMX754PP"
+  ],
+  "specs": {
+   "power_w": 1000,
+   "bowl_l": 5.0,
+   "speeds": 6,
+   "metal_gears": true,
+   "body": "metal",
+   "planetary": true
+  },
+  "spec_sources": {
+   "power_w": "opis ponude (Nabava.net/shop)",
+   "bowl_l": "opis ponude (Nabava.net/shop)",
+   "speeds": "opis ponude (Nabava.net/shop)",
+   "metal_gears": "opis ponude (Nabava.net/shop)",
+   "body": "opis ponude (Nabava.net/shop)",
+   "planetary": "opis ponude (Nabava.net/shop)"
+  },
+  "dough_score": 83.3,
+  "completeness": 1.0,
+  "nabava_urls": [
+   "https://www.nabava.net/kuhinjski-roboti-i-multipraktici/kenwood-kmx754pb-cijena-503126891",
+   "https://www.nabava.net/kuhinjski-roboti-i-multipraktici/kenwood-kmx754pp-cijena-537617771",
+   "https://www.nabava.net/kuhinjski-roboti-i-multipraktici/kenwood-kmx754apb-cijena-569539991"
+  ],
+  "tracked": true,
+  "suggested_target": 208.0,
+  "best_buy_note": "Rang 7, dough score 83.3, najniža cijena u analizi 219.0 EUR (eHome)."
+ },
+ {
+  "model_id": "kenwood-kmx750",
+  "brand": "Kenwood",
+  "name": "Kenwood KMX750AR",
+  "mpn_family": "KMX750",
+  "variants": [
+   "KMX750AR",
+   "KMX750ARD",
+   "KMX750AW",
+   "KMX750AWH",
+   "KMX750BK",
+   "KMX750RD",
+   "KMX750WH"
+  ],
+  "specs": {
+   "power_w": 1000,
+   "bowl_l": 5.0,
+   "speeds": 6,
+   "planetary": true,
+   "body": "metal"
+  },
+  "spec_sources": {
+   "power_w": "opis ponude (Nabava.net/shop)",
+   "bowl_l": "opis ponude (Nabava.net/shop)",
+   "speeds": "opis ponude (Nabava.net/shop)",
+   "planetary": "opis ponude (Nabava.net/shop)",
+   "body": "opis ponude (Nabava.net/shop)"
+  },
+  "dough_score": 83.3,
+  "completeness": 1.0,
+  "nabava_urls": [
+   "https://www.nabava.net/kuhinjski-roboti-i-multipraktici/kenwood-kmx750aw-cijena-195396371",
+   "https://www.nabava.net/kuhinjski-roboti-i-multipraktici/kenwood-kmx750ar-cijena-232393061",
+   "https://www.nabava.net/kuhinjski-roboti-i-multipraktici/kenwood-kmx750rd-cijena-64979391",
+   "https://www.nabava.net/kuhinjski-roboti-i-multipraktici/kenwood-kmx750bk-cijena-66373891",
+   "https://www.nabava.net/kuhinjski-roboti-i-multipraktici/kenwood-kmx750wh-cijena-66958791",
+   "https://www.nabava.net/kuhinjski-roboti-i-multipraktici/kenwood-kmx750ard-cijena-723289751",
+   "https://www.nabava.net/kuhinjski-roboti-i-multipraktici/kenwood-kmx750awh-cijena-853768571"
+  ],
+  "tracked": true,
+  "suggested_target": 218.0,
+  "best_buy_note": "Rang 8, dough score 83.3, najniža cijena u analizi 229.0 EUR (eHome)."
+ },
+ {
+  "model_id": "kenwood-kmx751",
+  "brand": "Kenwood",
+  "name": "Kenwood KMX751AWH",
+  "mpn_family": "KMX751",
+  "variants": [
+   "KMX751ABK",
+   "KMX751ACR",
+   "KMX751ARD",
+   "KMX751AWH"
+  ],
+  "specs": {
+   "power_w": 1000,
+   "bowl_l": 5.0,
+   "planetary": true,
+   "speeds": 6,
+   "body": "metal"
+  },
+  "spec_sources": {
+   "power_w": "opis ponude (Nabava.net/shop)",
+   "bowl_l": "opis ponude (Nabava.net/shop)",
+   "planetary": "opis ponude (Nabava.net/shop)",
+   "speeds": "opis ponude (Nabava.net/shop)",
+   "body": "opis ponude (Nabava.net/shop)"
+  },
+  "dough_score": 83.3,
+  "completeness": 1.0,
+  "nabava_urls": [
+   "https://www.nabava.net/kuhinjski-roboti-i-multipraktici/kenwood-kmx751ard-cijena-669206871",
+   "https://www.nabava.net/kuhinjski-roboti-i-multipraktici/kenwood-kmx751awh-cijena-675784301",
+   "https://www.nabava.net/kuhinjski-roboti-i-multipraktici/kenwood-kmx751abk-cijena-727903421",
+   "https://www.nabava.net/kuhinjski-roboti-i-multipraktici/kenwood-kmx751acr-cijena-794410551"
+  ],
+  "tracked": true,
+  "suggested_target": 221.0,
+  "best_buy_note": "Rang 9, dough score 83.3, najniža cijena u analizi 232.79 EUR (Svijet Medija)."
+ },
+ {
+  "model_id": "bosch-mum9b34s27",
+  "brand": "Bosch",
+  "name": "Bosch MUM9B34S27",
+  "mpn_family": "MUM9B34S27",
+  "variants": [
+   "MUM9B34S27"
+  ],
+  "specs": {
+   "planetary": true,
+   "power_w": 1400,
+   "bowl_l": 5.5
+  },
+  "spec_sources": {
+   "planetary": "opis ponude (Nabava.net/shop)",
+   "power_w": "opis ponude (Nabava.net/shop)",
+   "bowl_l": "opis ponude (Nabava.net/shop)"
+  },
+  "dough_score": 94.0,
+  "completeness": 0.8,
+  "nabava_urls": [
+   "https://www.nabava.net/kuhinjski-roboti-i-multipraktici/bosch-mum9b34s27-cijena-190709981"
+  ],
+  "tracked": true,
+  "suggested_target": 342.0,
+  "best_buy_note": "Rang 10, dough score 94.0, najniža cijena u analizi 359.91 EUR (MALL.HR)."
+ },
+ {
+  "model_id": "kenwood-kvl4110s",
+  "brand": "Kenwood",
+  "name": "Kenwood KVL4110S",
+  "mpn_family": "KVL4110S",
+  "variants": [
+   "KVL4110S"
+  ],
+  "specs": {
+   "power_w": 1200,
+   "bowl_l": 6.7,
+   "planetary": true
+  },
+  "spec_sources": {
+   "power_w": "opis ponude (Nabava.net/shop)",
+   "bowl_l": "opis ponude (Nabava.net/shop)",
+   "planetary": "opis ponude (Nabava.net/shop)"
+  },
+  "dough_score": 91.3,
+  "completeness": 0.8,
+  "nabava_urls": [
+   "https://www.nabava.net/kuhinjski-roboti-i-multipraktici/kenwood-kvl4110s-cijena-76896091"
+  ],
+  "tracked": true,
+  "suggested_target": 328.0,
+  "best_buy_note": "Rang 11, dough score 91.3, najniža cijena u analizi 346.5 EUR (Tech24)."
+ },
+ {
+  "model_id": "bosch-mum58259",
+  "brand": "Bosch",
+  "name": "Bosch MUM58259",
+  "mpn_family": "MUM58259",
+  "variants": [
+   "MUM58259"
+  ],
+  "specs": {
+   "power_w": 1000,
+   "bowl_l": 3.9,
+   "speeds": 7,
+   "planetary": true,
+   "dough_kg": 2.7
+  },
+  "spec_sources": {
+   "power_w": "opis ponude (Nabava.net/shop)",
+   "bowl_l": "opis ponude (Nabava.net/shop)",
+   "speeds": "opis ponude (Nabava.net/shop)",
+   "planetary": "opis ponude (Nabava.net/shop)",
+   "dough_kg": "opis ponude (Nabava.net/shop)"
+  },
+  "dough_score": 85.4,
+  "completeness": 0.8,
+  "nabava_urls": [
+   "https://www.nabava.net/kuhinjski-roboti-i-multipraktici/bosch-mum58259-cijena-579110591"
+  ],
+  "tracked": true,
+  "suggested_target": 273.0,
+  "best_buy_note": "Rang 12, dough score 85.4, najniža cijena u analizi 309.0 EUR (Elipso)."
+ },
+ {
+  "model_id": "bosch-mum9a66r00",
+  "brand": "Bosch",
+  "name": "Bosch MUM9A66R00",
+  "mpn_family": "MUM9A66R00",
+  "variants": [
+   "MUM9A66R00"
+  ],
+  "specs": {
+   "bowl_l": 5.5,
+   "body": "metal",
+   "power_w": 1600,
+   "planetary": true
+  },
+  "spec_sources": {
+   "bowl_l": "opis ponude (Nabava.net/shop)",
+   "body": "opis ponude (Nabava.net/shop)",
+   "power_w": "opis ponude (Nabava.net/shop)",
+   "planetary": "opis ponude (Nabava.net/shop)"
+  },
+  "dough_score": 97.5,
+  "completeness": 1.0,
+  "nabava_urls": [
+   "https://www.nabava.net/kuhinjski-roboti-i-multipraktici/bosch-mum9a66r00-cijena-571359851"
+  ],
+  "tracked": true,
+  "suggested_target": 417.0,
+  "best_buy_note": "Rang 13, dough score 97.5, najniža cijena u analizi 439.0 EUR (Elipso)."
+ },
+ {
+  "model_id": "bosch-mums8zs00",
+  "brand": "Bosch",
+  "name": "Bosch MUMS8ZS00",
+  "mpn_family": "MUMS8ZS00",
+  "variants": [
+   "MUMS8ZS00"
+  ],
+  "specs": {
+   "power_w": 1800,
+   "planetary": true,
+   "bowl_l": 6.0
+  },
+  "spec_sources": {
+   "power_w": "opis ponude (Nabava.net/shop)",
+   "planetary": "opis ponude (Nabava.net/shop)",
+   "bowl_l": "opis ponude (Nabava.net/shop)"
+  },
+  "dough_score": 100.0,
+  "completeness": 0.8,
+  "nabava_urls": [
+   "https://www.nabava.net/kuhinjski-roboti-i-multipraktici/bosch-mums8zs00-cijena-819516551"
+  ],
+  "tracked": true,
+  "suggested_target": 479.0,
+  "best_buy_note": "Rang 14, dough score 100.0, najniža cijena u analizi 503.93 EUR (Alles)."
+ },
+ {
+  "model_id": "name:sencor-stm-6377ch",
+  "brand": "Sencor",
+  "name": "Sencor STM 6377CH",
+  "mpn_family": null,
+  "variants": [],
+  "specs": {
+   "power_w": 1000,
+   "speeds": 8,
+   "planetary": true,
+   "body": "metal",
+   "bowl_l": 4.5
+  },
+  "spec_sources": {
+   "power_w": "opis ponude (Nabava.net/shop)",
+   "speeds": "opis ponude (Nabava.net/shop)",
+   "planetary": "opis ponude (Nabava.net/shop)",
+   "body": "opis ponude (Nabava.net/shop)",
+   "bowl_l": "opis ponude (Nabava.net/shop)"
+  },
+  "dough_score": 80.8,
+  "completeness": 1.0,
+  "nabava_urls": [
+   "https://www.nabava.net/kuhinjski-roboti-i-multipraktici/sencor-stm-6377ch-cijena-568063781"
+  ],
+  "tracked": true,
+  "suggested_target": 238.0,
+  "best_buy_note": "Rang 15, dough score 80.8, najniža cijena u analizi 261.62 EUR (MALL.HR)."
+ },
+ {
+  "model_id": "name:sencor-stm-7910",
+  "brand": "Sencor",
+  "name": "Sencor STM 7910",
+  "mpn_family": null,
+  "variants": [],
+  "specs": {
+   "power_w": 1500,
+   "bowl_l": 6.0,
+   "planetary": true,
+   "body": "metal",
+   "metal_gears": true,
+   "dough_kg": 4.0
+  },
+  "spec_sources": {
+   "power_w": "opis ponude (Nabava.net/shop)",
+   "bowl_l": "opis ponude (Nabava.net/shop)",
+   "planetary": "opis ponude (Nabava.net/shop)",
+   "body": "opis ponude (Nabava.net/shop)",
+   "metal_gears": "opis ponude (Nabava.net/shop)",
+   "dough_kg": "opis ponude (Nabava.net/shop)"
+  },
+  "dough_score": 100.0,
+  "completeness": 1.0,
+  "nabava_urls": [
+   "https://www.nabava.net/kuhinjski-roboti-i-multipraktici/sencor-stm-7910-cijena-580268501"
+  ],
+  "tracked": true,
+  "suggested_target": 473.0,
+  "best_buy_note": "Rang 16, dough score 100.0, najniža cijena u analizi 543.28 EUR (Bazzar)."
+ },
+ {
+  "model_id": "name:sencor-stm-4460gg",
+  "brand": "Sencor",
+  "name": "Sencor STM 4460GG",
+  "mpn_family": null,
+  "variants": [],
+  "specs": {
+   "power_w": 1000,
+   "bowl_l": 4.5,
+   "speeds": 8,
+   "planetary": true
+  },
+  "spec_sources": {
+   "power_w": "opis ponude (Nabava.net/shop)",
+   "bowl_l": "opis ponude (Nabava.net/shop)",
+   "speeds": "opis ponude (Nabava.net/shop)",
+   "planetary": "opis ponude (Nabava.net/shop)"
+  },
+  "dough_score": 76.0,
+  "completeness": 0.8,
+  "nabava_urls": [
+   "https://www.nabava.net/kuhinjski-roboti-i-multipraktici/sencor-stm-4460gg-cijena-66643471"
+  ],
+  "tracked": true,
+  "suggested_target": 197.0,
+  "best_buy_note": "Rang 17, dough score 76.0, najniža cijena u analizi 226.23 EUR (Bazzar)."
+ },
+ {
+  "model_id": "electrolux-e5km16gbp",
+  "brand": "Electrolux",
+  "name": "Electrolux E5KM1-6GBP",
+  "mpn_family": "E5KM1-6GBP",
+  "variants": [
+   "E5KM1-6GBP"
+  ],
+  "specs": {
+   "power_w": 1200,
+   "bowl_l": 5.0,
+   "planetary": true
+  },
+  "spec_sources": {
+   "power_w": "opis ponude (Nabava.net/shop)",
+   "bowl_l": "opis ponude (Nabava.net/shop)",
+   "planetary": "opis ponude (Nabava.net/shop)"
+  },
+  "dough_score": 85.0,
+  "completeness": 0.8,
+  "nabava_urls": [
+   "https://www.nabava.net/kuhinjski-roboti-i-multipraktici/electrolux-e5km1-6gbp-cijena-661151231"
+  ],
+  "tracked": true,
+  "suggested_target": 336.0,
+  "best_buy_note": "Rang 18, dough score 85.0, najniža cijena u analizi 354.08 EUR (iPon)."
+ },
+ {
+  "model_id": "smeg-smf05",
+  "brand": "Smeg",
+  "name": "Smeg SMF05CREU",
+  "mpn_family": "SMF05",
+  "variants": [
+   "SMF05BLEU",
+   "SMF05CREU",
+   "SMF05PBEU",
+   "SMF05PGEU",
+   "SMF05PKEU",
+   "SMF05RDEU",
+   "SMF05WHEU"
+  ],
+  "specs": {
+   "planetary": true,
+   "power_w": 1000,
+   "bowl_l": 4.8,
+   "speeds": 10,
+   "body": "metal"
+  },
+  "spec_sources": {
+   "planetary": "opis ponude (Nabava.net/shop)",
+   "power_w": "opis ponude (Nabava.net/shop)",
+   "bowl_l": "opis ponude (Nabava.net/shop)",
+   "speeds": "opis ponude (Nabava.net/shop)",
+   "body": "opis ponude (Nabava.net/shop)"
+  },
+  "dough_score": 82.3,
+  "completeness": 1.0,
+  "nabava_urls": [
+   "https://www.nabava.net/kuhinjski-roboti-i-multipraktici/smeg-smf05rdeu-cijena-843056071",
+   "https://www.nabava.net/kuhinjski-roboti-i-multipraktici/smeg-smf05wheu-cijena-844259231",
+   "https://www.nabava.net/kuhinjski-roboti-i-multipraktici/smeg-smf05creu-cijena-844259251",
+   "https://www.nabava.net/kuhinjski-roboti-i-multipraktici/smeg-smf05bleu-cijena-844259271",
+   "https://www.nabava.net/kuhinjski-roboti-i-multipraktici/smeg-smf05pgeu-cijena-845175851",
+   "https://www.nabava.net/kuhinjski-roboti-i-multipraktici/smeg-smf05pbeu-cijena-845175871",
+   "https://www.nabava.net/kuhinjski-roboti-i-multipraktici/smeg-smf05pkeu-cijena-957694151"
+  ],
+  "tracked": true,
+  "suggested_target": 382.0,
+  "best_buy_note": "Rang 19, dough score 82.3, najniža cijena u analizi 404.1 EUR (eKupi)."
+ },
+ {
+  "model_id": "smeg-smf02",
+  "brand": "Smeg",
+  "name": "Smeg SMF02PKEU",
+  "mpn_family": "SMF02",
+  "variants": [
+   "SMF02BLEU",
+   "SMF02CREU",
+   "SMF02PKEU",
+   "SMF02RDEU",
+   "SMF02SVEU",
+   "SMF02WHEU"
+  ],
+  "specs": {
+   "power_w": 800,
+   "bowl_l": 4.8,
+   "speeds": 10,
+   "planetary": true,
+   "body": "metal"
+  },
+  "spec_sources": {
+   "power_w": "opis ponude (Nabava.net/shop)",
+   "bowl_l": "opis ponude (Nabava.net/shop)",
+   "speeds": "opis ponude (Nabava.net/shop)",
+   "planetary": "opis ponude (Nabava.net/shop)",
+   "body": "opis ponude (Nabava.net/shop)"
+  },
+  "dough_score": 77.7,
+  "completeness": 1.0,
+  "nabava_urls": [
+   "https://www.nabava.net/kuhinjski-roboti-i-multipraktici/smeg-smf02creu-cijena-580350911",
+   "https://www.nabava.net/kuhinjski-roboti-i-multipraktici/smeg-smf02rdeu-cijena-580351151",
+   "https://www.nabava.net/kuhinjski-roboti-i-multipraktici/smeg-smf02wheu-cijena-580351181",
+   "https://www.nabava.net/kuhinjski-roboti-i-multipraktici/smeg-smf02bleu-cijena-580351271",
+   "https://www.nabava.net/kuhinjski-roboti-i-multipraktici/smeg-smf02sveu-cijena-580351331",
+   "https://www.nabava.net/kuhinjski-roboti-i-multipraktici/smeg-smf02pkeu-cijena-580601441"
+  ],
+  "tracked": true,
+  "suggested_target": 360.0,
+  "best_buy_note": "Rang 20, dough score 77.7, najniža cijena u analizi 379.0 EUR (Kingtrade)."
+ }
+]

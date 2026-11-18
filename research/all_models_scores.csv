@@ -1,0 +1,146 @@
+﻿model_id;brand;name;min_price_eur;n_shops;cheapest_shop;power_w;bowl_l;planetary;metal;dough_score;completeness;value_per_100eur;mid_range;vs_market_median_pct;vs_omnibus_pct;fake_discount;direct_shops
+name:maestro-mr560;Maestro;Maestro MR560;52.0;3;Tech24;500;4.0;True;False;58.3;0.8;112.12;False;24.7;;False;
+adler-ad4226;Adler;Adler AD4226;59.6;5;Tia mobiteli;1200;3.0;True;False;72.5;0.8;121.64;False;22.6;;False;
+name:berdsen-1400-w-bd-756-3-u-1-planetarni-mikser-kuhinjski-robot-6l;Berdsen;Berdsen 1400 W BD-756 3-u-1 planetarni mikser, kuhinjski robot 6l;71.98;2;MALL.HR;1400;6.0;True;False;97.1;0.8;134.9;False;;;False;
+name:elit-m-1200-pulsarone;Elit;Elit M-1200 PulsarONE;72.9;7;Centar Tehnike;1200;5.0;True;True;88.0;1.0;120.71;False;18.9;;False;
+name:vivax-rm-41500s-lunar;Vivax;Vivax RM-41500S Lunar;74.9;17;Centar Tehnike;1500;5.0;True;False;93.8;0.8;125.23;False;27.3;;False;
+adler-ad4216;Adler;Adler AD4216;74.9;5;Bazzar;1000;5.0;True;False;79.2;0.8;105.74;False;18.1;;False;
+name:vivax-rm-61400sx;Vivax;Vivax RM-61400SX;74.99;14;Vacom;1400;6.0;;False;96.4;0.65;128.55;False;37.2;;False;
+mesko-ms4217;Mesko;Mesko MS4217;75.9;2;Storum Home;1200;3.5;True;False;75.6;0.8;99.6;False;20.9;;False;
+tesla-kr600ra;Tesla;Tesla KR600RA;76.0;6;E-point.hr;1000;5.0;True;False;79.2;0.8;104.21;False;22.0;;False;
+name:heinner-hpm-600rd;Heinner;Heinner HPM-600RD;78.99;2;All Mall;600;5.0;True;True;74.0;1.0;93.68;False;;;False;
+name:sencor-stm-3634rd;Sencor;Sencor STM 3634RD;80.39;3;iPon;1300;5.5;True;False;91.0;0.8;113.2;False;5.6;;False;
+name:berdsen-w-bd-756-3-u-1-planetarni-mikser-kuhinjski-robot-6l;Berdsen;Berdsen W BD-756 3-u-1 planetarni mikser, kuhinjski robot 6l;81.6;2;MALL.HR;1400;6.0;True;False;97.1;0.8;119.0;False;12.4;;False;
+teesa-tsa3545b;Teesa;Teesa TSA3545-B;81.6;5;Tia mobiteli;1400;5.5;True;False;94.0;0.8;115.2;False;19.6;;False;
+name:ruhhy-16746;Ruhhy;Ruhhy 16746;84.9;2;Storum Home;1000;4.5;True;False;76.0;0.8;89.52;False;;;False;
+huslog-hus1046;Huslog;HUSLOG HUS1046 planetarni mikser 3000 W s 2 posude, crni;92.9;2;Storum Home;3000;;True;False;100.0;0.5;107.64;False;;;False;
+name:vivax-rm-71800wh;Vivax;Vivax RM-71800WH;93.59;5;Elipso;1800;7.0;;True;100.0;0.85;106.85;False;6.4;;False;
+name:ufesa-genius-70305937;Ufesa;Ufesa Genius 70305937;98.0;5;Tech24;1200;5.0;True;False;85.0;0.8;86.73;False;3.0;;False;
+name:tristar-mx-4817-kuhinjski-aparat-1200-w-bijela-srebrna;Tristar;Tristar MX-4817 kuhinjski aparat 1200 W bijela, srebrna;109.99;3;Conrad;1000;5.0;True;False;79.2;0.8;72.01;False;5.5;;False;
+bosch-mums2aw00;Bosch;Bosch MUMS2AW00;114.0;6;Centar Tehnike;700;3.8;True;False;62.9;0.8;55.18;False;14.6;;False;
+camry-cr4223;Camry;Camry CR4223;116.0;4;Tech24;2000;5.0;True;True;95.0;1.0;81.9;False;6.4;;False;
+končar-mp1000i;Končar;Končar MP1000I;118.9;3;Centar Tehnike;1000;5.0;True;True;83.3;1.0;70.06;False;0.9;;False;
+gorenje-mmc700lbw;Gorenje;Gorenje MMC700LBW;119.99;2;Alles;800;4.0;True;False;67.1;0.8;55.92;False;;;False;Harvey Norman
+bosch-mums2ew00;Bosch;Bosch MUMS2EW00;121.54;6;MALL.HR;700;3.8;True;False;75.2;0.8;61.87;False;14.0;;False;
+name:ruhhy-planetarni-robotski-mikser-od-2300-w-s-dodirnim-lcd-zaslonom-grijanom-posudom-vagom-crni-5-5-l;Ruhhy;Ruhhy Planetarni robotski mikser od 2300 W s dodirnim LCD zaslonom, grijanom posudom + vagom, crni, 5,5 l;123.99;2;MALL.HR;1200;5.5;True;False;88.1;0.8;71.05;False;4.5;;False;
+adler-ad4221;Adler;Adler AD4221;129.0;5;Tech24;2200;7.0;True;False;100.0;0.8;77.52;False;14.8;;False;
+name:ariete-1588-gr;Ariete;Ariete 1588.GR;134.9;4;Elipso;2400;5.5;True;False;96.9;0.8;71.83;False;17.5;;False;
+name:lauben-1200wt;Lauben;Lauben 1200WT;147.16;3;iPon;1200;5.5;True;False;88.1;0.8;59.87;False;21.1;;False;
+bosch-mums2er01;Bosch;Bosch MUMS2ER01;148.2;11;Bijela-tehnika.hr;700;3.8;True;False;62.9;0.8;42.44;False;7.4;;False;
+name:ruhhy-3u1-planetarni-robotski-mikser-od-2300-w-s-lcd-zaslonom-i-grijanom-posudom-crni-6-2-l;Ruhhy;Ruhhy 3u1 planetarni robotski mikser od 2300 W s LCD zaslonom i grijanom posudom, crni, 6,2 l;154.5;2;Zentro Trade;2300;6.2;True;False;100.0;0.8;64.72;False;;;False;
+bosch-mums2vm00;Bosch;Bosch MUMS2VM00;155.0;10;Elipso;900;3.8;True;False;68.8;0.8;44.39;False;10.6;;False;
+tefal-qb150138;Tefal;Tefal QB150138;158.0;1;Harvey Norman;800;4.8;True;False;72.1;0.8;45.63;False;;;False;Harvey Norman
+gorenje-mmc1000rl;Gorenje;Gorenje MMC1000RL;159.9;7;MALL.HR;1000;4.5;True;False;76.0;0.8;47.53;False;47.6;;False;
+bosch-mum58200;Bosch;Bosch MUM58200;160.0;4;Elipso;1000;3.9;True;False;72.3;0.8;45.19;False;37.5;;False;
+name:ariete-planetary-mixer-positano;Ariete;Ariete Planetary Mixer Positano;164.25;4;Bazzar;2400;5.5;True;False;96.9;0.8;59.0;False;18.8;;False;
+kenwood-kzm35000rd;Kenwood;Kenwood KZM35.000RD;164.99;12;eKupi;800;4.0;;True;69.0;0.85;41.82;False;24.5;;False;
+zilan-zln1772;Zilan;Zilan ZLN1772;167.16;3;Storum Home;1400;5.5;True;True;95.2;1.0;56.95;False;1.6;;False;
+name:sencor-stm-3760wh;Sencor;Sencor STM 3760WH;168.12;3;MALL.HR;1000;4.5;True;False;76.0;0.8;45.21;False;18.0;;False;
+name:heinner-hpm-1500xmc-v2;Heinner;Heinner HPM-1500XMC-V2;170.75;4;iPon;1500;5.5;True;True;97.5;1.0;57.1;False;28.6;;False;
+name:ariete-1598-1;Ariete;Ariete 1598/1;171.6;6;Protis;2100;7.0;True;False;100.0;0.8;58.28;False;17.7;;False;
+bosch-mums2ew40;Bosch;Bosch MUMS2EW40;176.0;12;Tech24;700;3.8;True;False;69.2;0.8;39.32;False;21.4;;False;
+black-bxkm1000e;Black;Black & Decker BXKM1000E;178.3;2;MALL.HR;1000;5.2;True;True;84.3;1.0;47.28;False;0.5;;False;
+name:sencor-stm-3761bk;Sencor;Sencor STM 3761BK;178.8;3;Tonerpartner.hr;1000;4.5;True;False;76.0;0.8;42.51;False;2.4;;False;
+name:sencor-stm-6350wh;Sencor;Sencor STM 6350WH;179.99;3;MALL.HR;1000;4.5;True;True;80.8;1.0;44.89;False;8.0;;False;
+name:lauben-1200bc;Lauben;Lauben 1200BC;186.54;3;Bazzar;1200;5.5;True;False;88.1;0.8;47.23;False;40.9;;False;
+kenwood-kzm35000gy;Kenwood;Kenwood KZM35000GY;198.5;18;Tech24;800;4.0;;True;69.0;0.85;34.76;False;9.8;;False;
+bosch-mc812m865;Bosch;Bosch MC812M865;199.0;10;Elipso;1250;3.9;;False;74.9;0.65;37.64;False;14.7;;False;
+bosch-mums2vm40;Bosch;Bosch MUMS2VM40;199.0;9;Bazzar;900;3.8;True;False;68.8;0.8;34.57;False;3.4;;False;
+name:berlinger-haus-bh-9512;Berlinger;Berlinger Haus BH-9512;203.92;1;MALL.HR;1300;6.0;True;False;94.2;0.8;46.19;False;;;False;
+name:berlinger-haus-bh-9197;Berlinger;Berlinger Haus BH-9197;203.96;1;MALL.HR;1300;6.0;True;False;94.2;0.8;46.19;False;;;False;
+kenwood-khc30050gy;Kenwood;Kenwood KHC30.050GY kuhinjski robot;209.13;5;iPon;1000;4.3;True;True;78.7;1.0;37.63;False;16.0;;False;
+name:sencor-stm-3789sl;Sencor;Sencor STM 3789SL;218.91;2;Bazzar;1200;5.0;True;False;85.0;0.8;38.83;True;;;False;
+kenwood-kmx754;Kenwood;Kenwood KMX754PB;219.0;10;eHome;1000;5.0;True;True;83.3;1.0;38.04;True;20.9;;False;
+bosch-mum58210;Bosch;Bosch MUM58210;219.0;4;All Mall;1000;;True;False;76.7;0.5;35.02;True;12.2;;False;
+name:ruhhy-16747;Ruhhy;Ruhhy 16747;219.99;1;MALL.HR;2200;6.2;;False;100.0;0.65;45.46;True;;;False;
+name:vi-enamjenski-planetarni-mikser-3u1-2000w-maestro;Višenamjenski;Višenamjenski planetarni mikser 3u1 2000W Maestro;223.0;1;Avero;2000;0.8;True;False;67.5;0.8;30.27;True;;;False;
+bosch-mum58720;Bosch;Bosch MUM58720;223.81;2;Tonerpartner.hr;1000;;;False;54.4;0.65;24.31;True;;;False;
+bosch-mum50123;Bosch;Bosch MUM50123;224.99;1;Conrad;800;;True;False;67.3;0.5;29.91;True;;;False;
+name:sencor-stm-4460gg;Sencor;Sencor STM 4460GG;226.23;2;Bazzar;1000;4.5;True;False;76.0;0.8;33.59;True;;;False;
+kenwood-kmx750;Kenwood;Kenwood KMX750AR;229.0;14;eHome;1000;5.0;True;True;83.3;1.0;36.38;True;17.9;37.1;False;Harvey Norman
+bosch-mum58l20;Bosch;Bosch MUM58L20;229.9;1;MALL.HR;1000;3.9;;False;65.9;0.65;28.66;True;;;False;
+kenwood-kmx751;Kenwood;Kenwood KMX751AWH;232.79;15;Svijet Medija;1000;5.0;True;True;83.3;1.0;35.78;True;13.6;35.1;False;Harvey Norman
+electrolux-e5km14bpt;Electrolux;Electrolux E5KM1-4BPT;237.18;12;Megabajt;1200;5.0;True;True;88.0;1.0;37.1;True;20.9;;False;
+name:severin-km-3897;Severin;Severin KM 3897;238.88;2;Bazzar;;5.5;;True;100.0;0.5;41.86;True;;;False;
+bosch-mum5x720;Bosch;Bosch MUM5X720;239.0;12;Elipso;1000;3.9;;False;65.9;0.65;27.57;True;30.7;;False;
+name:sencor-stm-4550ws;Sencor;Sencor STM 4550WS;239.18;1;iPon;800;5.6;True;True;81.7;1.0;34.16;True;;;False;
+bosch-mum54r00;Bosch;Bosch MUM54R00;239.99;1;Conrad;900;;True;False;72.0;0.5;30.0;True;;;False;
+bosch-mum54251;Bosch;Bosch MUM54251;240.0;13;Alles;900;3.9;True;False;69.4;0.8;28.92;True;13.3;;False;Harvey Norman
+name:heinner-hpm-1500xmc;Heinner;Heinner HPM-1500XMC;241.73;1;All Mall;1500;5.5;True;True;97.5;1.0;40.33;True;;;False;
+bosch-mum5xw40;Bosch;Bosch MUM5XW40;242.49;13;Svijet Medija;1000;3.9;True;False;72.3;0.8;29.82;True;10.2;40.2;False;Harvey Norman
+bosch-mum5935b;Bosch;Bosch MUM5935B;249.9;6;MALL.HR;1000;3.9;True;False;72.3;0.8;28.93;True;25.3;;False;
+electrolux-e5km14swb;Electrolux;Electrolux E5KM1-4SWB;252.7;10;Bijela-tehnika.hr;1200;5.0;True;True;88.0;1.0;34.82;True;15.7;;False;
+name:ecg-forza-5500;Ecg;ECG Forza 5500;253.3;2;MALL.HR;1500;6.5;True;False;100.0;0.8;39.48;True;4.1;;False;
+kenwood-kvc3110s;Kenwood;Kenwood KVC3110S;256.0;4;Tech24;1000;4.6;True;False;76.7;0.8;29.96;True;12.6;;False;
+bosch-mum58m59;Bosch;Bosch MUM58M59;256.41;3;Big Bang;1000;3.9;True;False;72.3;0.8;28.2;True;24.6;;False;
+bosch-mum58258;Bosch;Bosch MUM58258;259.0;7;Elipso;1000;3.9;True;False;62.9;0.8;24.29;True;8.9;;False;
+name:sencor-stm-6377ch;Sencor;Sencor STM 6377CH;261.62;3;MALL.HR;1000;4.5;True;True;80.8;1.0;30.88;True;6.5;;False;
+tefal-qb525b38;Tefal;Tefal QB525B38;263.36;1;MALL.HR;1100;4.6;True;False;79.6;0.8;30.22;True;;;False;
+bosch-mum5xw20;Bosch;Bosch MUM5XW20;269.9;14;Centar Tehnike;1000;3.9;True;False;72.3;0.8;26.79;True;20.1;;False;
+bosch-mum58420;Bosch;Bosch MUM58420;279.9;1;Alles;1000;;True;False;76.7;0.5;27.4;True;;;False;
+name:kenwood-kmx750;Kenwood;Kenwood KMX750;279.99;4;Tehno-Mag;1000;5.0;;False;74.4;0.65;26.57;True;8.9;;False;
+kenwood-kvl4100s;Kenwood;Kenwood KVL4100S;281.5;6;Tech24;1200;;;False;80.0;0.35;28.42;True;16.5;;False;
+name:sencor-stm-4467ch;Sencor;Sencor STM 4467CH;291.09;2;Bazzar;1000;4.5;True;False;76.0;0.8;26.11;True;;;False;
+bosch-mum5xw10;Bosch;Bosch MUM5XW10;292.9;6;Centar Tehnike;1000;3.9;True;False;72.3;0.8;24.68;True;13.9;11.1;False;Harvey Norman
+bosch-mum58231;Bosch;Bosch MUM58231;293.43;3;iPon;1000;;True;False;76.7;0.5;26.14;True;1.9;;False;
+name:eta-2043-90020;Eta;ETA 2043 90020;295.21;4;Bazzar;1200;5.0;True;False;91.3;0.8;30.93;True;4.6;;False;
+electrolux-e6km14ppt;Electrolux;Electrolux E6KM1-4PPT;303.99;10;Euronics;1200;6.0;True;True;93.0;1.0;30.59;True;25.1;;False;
+bosch-mum58259;Bosch;Bosch MUM58259;309.0;9;Elipso;1000;3.9;True;False;85.4;0.8;27.64;True;3.6;;False;Harvey Norman
+bosch-mums6ew00;Bosch;Bosch MUMS6EW00;319.9;2;Harvey Norman;;5.5;True;False;94.4;0.45;29.51;True;;38.5;False;Harvey Norman
+kenwood-khh326wh;Kenwood;Kenwood KHH326WH;337.78;1;All Mall;1000;4.3;;False;69.0;0.65;20.43;True;;;False;
+kenwood-kvc65001wh;Kenwood;Kenwood KVC65.001WH;339.49;6;Svijet Medija;1200;5.0;;False;81.5;0.65;24.01;True;3.9;;False;
+smeg-smf04bleu;Smeg;Smeg SMF04BLEU;344.0;7;Tech24;800;4.8;True;False;72.1;0.8;20.96;True;13.8;;False;
+kenwood-kvl4110s;Kenwood;Kenwood KVL4110S;346.5;9;Tech24;1200;6.7;True;False;91.3;0.8;26.35;True;10.3;;False;Harvey Norman
+electrolux-e5km16gbp;Electrolux;Electrolux E5KM1-6GBP;354.08;3;iPon;1200;5.0;True;False;85.0;0.8;24.01;True;10.9;;False;
+bosch-mum58364;Bosch;Bosch MUM58364;358.44;1;MALL.HR;1000;3.9;True;False;72.3;0.8;20.17;True;;;False;
+bosch-mum9b34s27;Bosch;Bosch MUM9B34S27;359.91;7;MALL.HR;1400;5.5;True;False;94.0;0.8;26.12;True;32.8;;False;
+bosch-mum5xc4e;Bosch;Bosch MUM5XC4E;366.0;9;Centar Tehnike;1000;3.9;True;False;72.3;0.8;19.75;True;7.3;10.2;False;Harvey Norman
+kenwood-kvl65001wh;Kenwood;Kenwood KVL65.001WH;366.5;4;Tech24;1200;7.0;True;True;93.0;1.0;25.38;True;9.4;;False;
+smeg-smf04creu;Smeg;Smeg SMF04CREU;397.9;7;Centar Tehnike;800;4.8;True;False;72.1;0.8;18.12;True;0.3;;False;
+smeg-smf04wheu;Smeg;Smeg SMF04WHEU;397.9;5;Centar Tehnike;800;4.8;True;False;72.1;0.8;18.12;True;0.3;;False;
+smeg-smf05rdeu;Smeg;Smeg SMF05RDEU;404.1;6;eKupi;1000;4.8;True;True;82.3;1.0;20.37;True;10.0;;False;
+kenwood-kvc85004si;Kenwood;Kenwood KVC85.004SI;407.99;4;eKupi;1200;5.0;;False;81.5;0.65;19.98;True;4.7;;False;
+kitchenaid-5ksm125;KitchenAid;KitchenAid 5KSM125ELR;423.0;6;Tech24;300;4.8;True;True;66.0;1.0;15.6;True;8.8;;False;Harvey Norman
+smeg-smf05wheu;Smeg;Smeg SMF05WHEU;431.0;8;Tech24;1000;4.8;True;True;82.3;1.0;19.1;True;4.0;;False;
+bosch-mum58a20;Bosch;Bosch MUM58A20;435.0;1;Conrad;1000;;;False;66.7;0.35;15.33;True;;;False;
+bosch-mum9a66r00;Bosch;Bosch MUM9A66R00;439.0;4;Elipso;1600;5.5;True;True;97.5;1.0;22.21;True;17.0;;False;
+kenwood-kvl85004si;Kenwood;Kenwood KVL85.004SI;443.0;3;Tech24;1200;7.0;;False;89.2;0.65;20.14;True;14.6;;False;
+smeg-smf05creu;Smeg;Smeg SMF05CREU;447.9;7;Centar Tehnike;1000;4.8;True;True;82.3;1.0;18.37;True;0.2;;False;
+smeg-smf05pgeu;Smeg;Smeg SMF05PGEU;447.9;7;Centar Tehnike;1000;4.8;True;True;82.3;1.0;18.37;True;0.2;;False;
+smeg-smf05pbeu;Smeg;Smeg SMF05PBEU;447.9;6;Centar Tehnike;1000;4.8;True;True;82.3;1.0;18.37;True;0.2;;False;
+smeg-smf05pkeu;Smeg;Smeg SMF05PKEU;449.0;3;Tia mobiteli;1000;4.8;True;False;77.9;0.8;17.35;False;0.0;;False;
+kenwood-kvc3150s;Kenwood;Kenwood KVC3150S;457.0;2;Tech24;1000;;;False;66.7;0.35;14.6;False;;;False;
+smeg-smf03wheu;Smeg;Smeg SMF03WHEU;459.0;3;Kingtrade;800;;True;False;67.3;0.5;14.66;False;34.3;;False;
+kitchenaid-5ksm175ps;KitchenAid;KitchenAid 5KSM175PSECA;471.0;7;Digiexpert;300;4.8;True;True;66.0;1.0;14.01;False;17.7;28.1;False;Harvey Norman
+smeg-smf05bleu;Smeg;Smeg SMF05BLEU;497.76;3;Termol;1000;4.8;True;True;82.3;1.0;16.53;False;28.8;;False;
+kenwood-kvl85004bk;Kenwood;Kuhinjski robot KENWOOD KVL85.004BK;499.99;3;Tehno-Mag;1200;5.0;;False;81.5;0.65;16.3;False;5.3;;False;
+bosch-mums8zs00;Bosch;Bosch MUMS8ZS00;503.93;7;Alles;1800;6.0;True;False;100.0;0.8;19.84;False;22.8;;False;
+kenwood-kvc85124si;Kenwood;Kenwood KVC85.124SI;508.5;5;Tech24;1200;5.0;True;False;85.0;0.8;16.72;False;21.3;15.0;False;Harvey Norman
+name:sencor-stm-7910;Sencor;Sencor STM 7910;543.28;2;Bazzar;1500;6.0;True;True;100.0;1.0;18.41;False;;;False;
+smeg-smf03pgeu;Smeg;Smeg SMF03PGEU;549.0;4;Kingtrade;800;;True;False;67.3;0.5;12.26;False;18.2;;False;
+smeg-smf02pkeu;Smeg;Smeg SMF02PKEU;549.9;3;Centar Tehnike;800;4.8;True;True;77.7;1.0;14.13;False;8.2;;False;
+kenwood-kvl85224si;Kenwood;Kenwood KVL85.224SI;556.0;4;SmartLab;1200;5.0;True;False;85.0;0.8;15.29;False;6.1;;False;
+smeg-smf02sveu;Smeg;Smeg SMF02SVEU;599.0;2;Shopzilla;800;;;True;70.3;0.55;11.74;False;;;False;
+smeg-smf03pbeu;Smeg;Smeg SMF03PBEU;599.99;4;Links;800;4.8;True;False;72.1;0.8;12.02;False;12.9;;False;
+kitchenaid-5ksm185ps;KitchenAid;KitchenAid 5KSM185PSEOB;603.0;5;Tech24;300;4.8;True;False;57.5;0.8;9.54;False;10.9;;False;
+bosch-mum9bx5s22;Bosch;Bosch MUM9BX5S22;620.0;5;Alles;1500;5.5;True;True;97.5;1.0;15.73;False;19.7;;False;
+kitchenaid-5ksm60spxeer;KitchenAid;KitchenAid mikser KA5KSM60SPXEER crveni;628.19;1;MALL.HR;;5.6;True;False;95.6;0.45;15.22;False;;;False;
+kitchenaid-5ksm156cx;KitchenAid;KitchenAid 5KSM156CXEPL;650.0;2;Harvey Norman;;4.8;True;False;86.7;0.45;13.34;False;9.3;18.6;False;Harvey Norman
+kitchenaid-5ksm55sxx;KitchenAid;KitchenAid Heavy Duty mikser 5KSM55SXX 5,2 l boja: sjajno crvena;655.0;2;Digiexpert;375;5.2;True;False;62.2;0.8;9.5;False;;;False;
+bosch-mum9ax5s00;Bosch;Bosch MUM9AX5S00;678.9;3;Centar Tehnike;1500;;;False;100.0;0.35;14.73;False;0.1;;False;
+kenwood-kwl90004si;Kenwood;Kenwood KWL90.004SI;678.99;3;Harvey Norman;1400;7.0;;False;96.4;0.65;14.2;False;2.0;;False;
+smeg-smf03pkeu;Smeg;Smeg SMF03PKEU;699.0;2;Shopzilla;800;;True;False;67.3;0.5;9.63;False;;;False;
+kenwood-kvl85704si;Kenwood;Kenwood KVL85.704SI;699.99;1;Tehno-Mag;1200;5.0;;False;81.5;0.65;11.64;False;;;False;
+kitchenaid-5ksm50pkve;KitchenAid;KitchenAid Artisan Plus mikser 5KSM50PKVE Boja: Smeđa;705.8;2;Tia mobiteli;;4.7;True;False;85.6;0.45;12.13;False;;;False;
+kenwood-kvl4140s;Kenwood;Kenwood KVL4140S;709.0;1;Conrad;1200;;;False;80.0;0.35;11.28;False;;;False;
+bosch-mum9yx5s12;Bosch;Bosch MUM9YX5S12;715.24;1;Alles;1500;5.5;True;False;96.9;0.8;13.55;False;;;False;
+smeg-smf03dgeu;Smeg;Smeg SMF03DGEU;736.23;6;Svijet Medija;800;4.8;True;True;77.7;1.0;10.55;False;3.0;;False;
+kitchenaid-5ksm50pkveoc;KitchenAid;Kuhinjski robot KITCHENAID 5KSM50PKVEOC;749.0;1;Harvey Norman;;4.7;;False;78.3;0.3;10.45;False;;16.7;False;Harvey Norman
+kitchenaid-5ksm50pkvepl;KitchenAid;Kuhinjski robot KITCHENAID 5KSM50PKVEPL;749.0;1;Harvey Norman;;4.7;;False;78.3;0.3;10.45;False;;16.7;False;Harvey Norman
+bosch-mums8zs22;Bosch;Bosch MUMS8ZS22;789.0;5;eHome;1800;6.0;True;False;100.0;0.8;12.67;False;1.3;;False;
+kitchenaid-5ksm70shxeca;KitchenAid;KitchenAid mikser KA5KSM70SHXECA crveni;823.26;1;MALL.HR;;6.6;True;False;100.0;0.45;12.15;False;;;False;
+kitchenaid-5ksm70shxebm;KitchenAid;KitchenAid mikser KA5KSM70SHXEBM crni;847.64;1;MALL.HR;;6.6;True;False;100.0;0.45;11.8;False;;;False;
+name:ankarsrum-an-10-2300105;Ankarsrum;Ankarsrum AN-10-2300105;871.0;1;Bazzar;1500;7.0;;False;100.0;0.65;11.48;False;;;False;
+name:ankarsrum-an-10-2300114;Ankarsrum;Ankarsrum AN-10-2300114;871.0;1;Bazzar;1500;7.0;;False;100.0;0.65;11.48;False;;;False;
+name:ankarsrum-an-10-2300100;Ankarsrum;Ankarsrum AN-10-2300100;871.0;1;Bazzar;1500;7.0;;False;100.0;0.65;11.48;False;;;False;
+bosch-mum9bx5s61;Bosch;Bosch MUM9BX5S61;949.0;4;Centar Tehnike;1500;;;False;100.0;0.35;10.54;False;7.9;;False;Harvey Norman
