@@ -46,6 +46,12 @@ class LocalStore:
         return [r for r in self.db[table] if str(r.get(field, "")) >= cut]
 
 
+def _check(r):
+    """raise_for_status, but with the response body (Supabase error text) and no secrets."""
+    if r.status_code >= 400:
+        raise RuntimeError(f"Supabase {r.request.method} {r.request.url.path} -> HTTP {r.status_code}: {r.text[:300]}")
+
+
 class SupabaseStore:
     def __init__(self, url=None, key=None):
         self.url = (url or os.environ["SUPABASE_URL"]).rstrip("/") + "/rest/v1"
@@ -58,7 +64,7 @@ class SupabaseStore:
     def select(self, table, **eq):
         params = {"select": "*", **{k: f"eq.{str(v).lower() if isinstance(v, bool) else v}" for k, v in eq.items()}}
         r = self.c.get(f"{self.url}/{table}", params=params)
-        r.raise_for_status()
+        _check(r)
         return r.json()
 
     def insert(self, table, rows, key=None):
@@ -67,13 +73,13 @@ class SupabaseStore:
         headers = {"Prefer": "return=representation" + (",resolution=merge-duplicates" if key else "")}
         params = {"on_conflict": ",".join(key)} if key else {}
         r = self.c.post(f"{self.url}/{table}", params=params, headers=headers, content=json.dumps(rows, default=str))
-        r.raise_for_status()
+        _check(r)
         return r.json()
 
     def since(self, table, field, delta):
         cut = (now() - delta).isoformat()
         r = self.c.get(f"{self.url}/{table}", params={"select": "*", field: f"gte.{cut}", "limit": "100000"})
-        r.raise_for_status()
+        _check(r)
         return r.json()
 
 
