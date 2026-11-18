@@ -3,3 +3,4 @@ data/local_db.json
 __pycache__/
 *.pyc
 .env
+logs/

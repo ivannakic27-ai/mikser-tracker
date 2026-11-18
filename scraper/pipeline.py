@@ -20,6 +20,7 @@ from .telegram import Telegram
 from . import alerts, commands
 
 logging.basicConfig(level=logging.INFO, format="%(message)s")
+logging.getLogger("httpx").setLevel(logging.WARNING)   # httpx logs full URLs (Telegram URL contains the bot token)
 log = logging.getLogger("pipeline")
 TRACKED = Path("data/tracked_models.json")
 
