@@ -50,8 +50,10 @@ class SupabaseStore:
     def __init__(self, url=None, key=None):
         self.url = (url or os.environ["SUPABASE_URL"]).rstrip("/") + "/rest/v1"
         key = key or os.environ["SUPABASE_SERVICE_KEY"]
-        self.c = httpx.Client(headers={"apikey": key, "Authorization": f"Bearer {key}",
-                                       "Content-Type": "application/json"}, timeout=30)
+        headers = {"apikey": key, "Content-Type": "application/json"}
+        if not key.startswith("sb_"):          # legacy JWT service_role key; new sb_secret_ keys are not JWTs
+            headers["Authorization"] = f"Bearer {key}"
+        self.c = httpx.Client(headers=headers, timeout=30)
 
     def select(self, table, **eq):
         params = {"select": "*", **{k: f"eq.{str(v).lower() if isinstance(v, bool) else v}" for k, v in eq.items()}}
