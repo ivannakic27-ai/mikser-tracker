@@ -1,5 +1,7 @@
 name: scrape
 
+# Runs on a SELF-HOSTED Windows runner (the user's own PC): Nabava.net and Harvey Norman return 403 to GitHub's
+# data-centre IPs. We do not work around that; the scraper runs from the user's home connection instead.
 on:
   schedule:
     # Zagreb 07:00 and 19:00. UTC offset changes with DST (winter +1, summer +2), so both UTC hours are scheduled
@@ -28,41 +30,44 @@ concurrency:
 
 jobs:
   scrape:
-    runs-on: ubuntu-latest
+    runs-on: [self-hosted, windows]
     timeout-minutes: 20
+    defaults:
+      run:
+        shell: powershell
     env:
+      PYTHONUTF8: "1"
       SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
       SUPABASE_SERVICE_KEY: ${{ secrets.SUPABASE_SERVICE_KEY }}
       TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
       TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
     steps:
       - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
-        with:
-          python-version: "3.12"
-          cache: pip
-          cache-dependency-path: scraper/requirements.txt
-      - run: pip install -r scraper/requirements.txt
+
+      - name: Install dependencies (uses Python already installed on the PC)
+        run: py -3 -m pip install -q -r scraper/requirements.txt
 
       - name: Init (učitaj praćene modele)
         if: github.event_name == 'workflow_dispatch' && inputs.action == 'init'
-        run: python -m scraper.pipeline --init
+        run: py -3 -m scraper.pipeline --init
 
       - name: Scheduled run
         if: github.event_name == 'schedule'
-        run: python -m scraper.pipeline --scheduled
+        run: py -3 -m scraper.pipeline --scheduled
 
       - name: Manual run
         if: github.event_name == 'workflow_dispatch' && inputs.action == 'run'
-        run: python -m scraper.pipeline --slot ${{ inputs.slot }}
+        run: py -3 -m scraper.pipeline --slot ${{ inputs.slot }}
 
       - name: Commit JSON snapshot (backup)
+        if: always()
         run: |
-          if [ -n "$(git status --porcelain data/snapshots)" ]; then
+          $changes = git status --porcelain data/snapshots
+          if ($changes) {
             git config user.name "price-bot"
             git config user.email "price-bot@users.noreply.github.com"
             git add data/snapshots
-            git commit -m "snapshot $(date -u +%F_%H%M)"
+            git commit -m ("snapshot " + (Get-Date).ToUniversalTime().ToString("yyyy-MM-dd_HHmm"))
             git pull --rebase
             git push
-          fi
+          }
