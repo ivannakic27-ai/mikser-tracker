@@ -150,6 +150,8 @@ def main():
     (out / f"{datetime.now(timezone.utc):%Y-%m-%d_%H%M}.json").write_text(
         json.dumps({"run": run, "offers": list(uniq.values())}, ensure_ascii=False, default=str), encoding="utf-8")
     log.info("run %s: %s, %d ponuda, %d modela", run["id"], status, len(uniq), len(models))
+    if status == "failed":
+        sys.exit(1)      # make the GitHub job red when every source failed
 
 
 if __name__ == "__main__":

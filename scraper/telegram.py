@@ -21,6 +21,8 @@ class Telegram:
             r = httpx.post(API.format(token=self.token, method="sendMessage"), timeout=20,
                            json={"chat_id": self.chat_id, "text": text, "parse_mode": "HTML",
                                  "disable_web_page_preview": True})
+            if r.status_code != 200:
+                print(f"Telegram sendMessage HTTP {r.status_code}: {r.text[:200]}")   # e.g. 'chat not found' (token never printed)
             return r.status_code == 200
         except httpx.HTTPError:
             return False
