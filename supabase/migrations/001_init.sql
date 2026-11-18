@@ -87,7 +87,7 @@ create table if not exists settings (
 -- After creating your Supabase user, set its UUID here (Authentication > Users):
 --   select set_config('app.owner', '<UUID>', false);  -- or just replace the placeholder below
 create or replace function is_owner() returns boolean language sql stable as $$
-  select auth.uid() = 'OWNER_UUID_HERE'::uuid
+  select auth.uid() = 'c832a665-53b4-4491-a06e-f65dbc607b06'::uuid
 $$;
 
 do $$

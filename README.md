@@ -30,7 +30,7 @@ Preskočeni izvori: Jeftinije.hr, Big Bang, Ronis, Mall.hr, Pevex (cijene Big Ba
 ### 2. Supabase
 1. Napravi projekt na supabase.com (besplatni plan).
 2. Authentication → Users → **Add user** (tvoj e-mail + lozinka). Kopiraj **UUID** tog korisnika.
-3. U `supabase/migrations/001_init.sql` zamijeni `OWNER_UUID_HERE` tim UUID-om.
+3. U `supabase/migrations/001_init.sql` UUID vlasnika je već upisan u SQL (provjeri da odgovara korisniku u Authentication → Users).
 4. SQL Editor → zalijepi cijeli `001_init.sql` → Run.
 5. Project Settings → API: zapiši **Project URL**, **service_role key** (tajni, samo za GitHub Secrets) i **anon key** (za aplikaciju).
    RLS je uključen: samo prijavljeni vlasnik može čitati i pisati, anon ključ sam ne može ništa.
